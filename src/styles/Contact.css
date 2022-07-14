@@ -1,0 +1,74 @@
+.contact{
+    background: #101820ff;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    height: 60%;
+    width: 80%;
+    background: #f2aa4cff;
+    display: flex;
+    margin-top: 20px;
+}
+.imgcontainer{
+    background-image: url("../assets/team2.jpeg");
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+.textcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.inputtext{
+    width: 60%;
+    height: 40%;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+
+}
+.heading{
+    text-align: center;
+    color: white;
+    margin-top: -50px;
+    font-size: 44px;
+    
+}
+
+@media screen and (max-width:900px) {
+    .container{
+        /* height: 60%;
+        width: 80%;
+        background: #f2aa4cff; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .imgcontainer {
+        
+        width: 100%;
+        height: 100%;
+        
+    }
+    .textcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+}

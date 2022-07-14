@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* background: rgba(255, 255, 255, .05); */
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+.navlink{
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   
+}
+/* for nav buutons */
+.nav{
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    
+}
+.nav:hover{
+    border: 2px solid #fff;
+}
+
+

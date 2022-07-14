@@ -1,0 +1,45 @@
+body{
+    /* background-image: url("../assets/bg2.jpg"); */
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.3)),url("../assets/bg2.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    
+}
+.header-container{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    
+}
+button{
+    color: white;
+    background-color: transparent;
+    height: 40px;
+    width: 90px;
+    border: 2px solid white;
+    font-size: 22px;
+    margin-top: 1em;
+    transition: ease-in-out .3s;
+    opacity: .8;
+}
+button:hover{
+    /* background:rgba(255,255,255,1);
+    color: #000;
+    border: 2px solid #000; */
+    transform: scale(1.2);
+    opacity:1.5 ;
+    
+}
+@media screen and (max-width: 557px){
+    .header-container {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+}
+
